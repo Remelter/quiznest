@@ -1,0 +1,78 @@
+/* General body styles */
+body {
+  margin: 0.625rem;
+  padding: 0;
+  background-color: #042a2b;
+}
+
+/* Container to hold the content */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  color: #f6e66c;
+  font-size: 24px;
+  font-family: cursive;
+  overflow-y: auto;
+}
+
+/* Button styling */
+button {
+  display: block;
+  margin: 10px;
+  width: 100%;
+  max-width: 500px;
+  border: black solid 2px;
+  border-radius: 4px 10px;
+  padding: 10px 16px;
+  transition: all 0.3s ease-in-out;
+  font-size: 18px;
+  font-family: cursive;
+  box-sizing: border-box;
+}
+
+/* Button hover effect */
+button:hover {
+  cursor: pointer;
+}
+
+/* Disabled button styling */
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Media query for smaller screens (like mobile) */
+@media (max-width: 768px) {
+  .container {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 16px;
+    width: 90%;
+    max-width: none;
+    padding: 8px 14px;
+  }
+
+  ol {
+    margin-left: 10px;
+  }
+}
+
+/* Media query for even smaller screens (like very small mobile devices) */
+@media (max-width: 480px) {
+  .container {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 14px;
+    width: 90%;
+    padding: 6px 12px;
+  }
+
+  ol {
+    margin-left: 5px;
+  }
+}
