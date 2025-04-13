@@ -12,7 +12,7 @@ body {
   height: 100vh;
   color: #f6e66c;
   font-size: 24px;
-  font-family: cursive;
+  font-family: poppins;
   overflow-y: auto;
 }
 
@@ -27,7 +27,7 @@ button {
   padding: 10px 16px;
   transition: all 0.3s ease-in-out;
   font-size: 18px;
-  font-family: cursive;
+  font-family: poppins;
   box-sizing: border-box;
 }
 
