@@ -21,7 +21,7 @@ function setupQuestion(qNum) {
   };
 }
 
-// Setup all 30 questions 🧠🔥
-for (let q = 1; q <= 30; q++) {
+// Setup all 30 questions
+for (let q = 1; q <= 20; q++) {
   setupQuestion(q);
 }
